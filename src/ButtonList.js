@@ -12,13 +12,13 @@ import rssIcon from './Assets/rss-icon.png';
 // import smallLogo from './Assets/small-logo.png';
 import twitIcon from './Assets/twit-icon.png';
 // import vanPic from './Assets/van-pic.png';
+const icons = [logo, twitIcon, fbIcon, gpIcon, instaIcon, flicIcon, printIcon, rssIcon, mailIcon];
 
 export default class ButtonList extends Component {
     render() {
-        const icons = [logo, twitIcon, fbIcon, gpIcon, instaIcon, flicIcon, printIcon, rssIcon, mailIcon];
-        return (
+        return (        
             <div>
-                <img src={icons} alt='icons' />
+                {this.props.icons.map((icon, i) => <img src={icons} alt="images" key={i} />)}
             </div>
         )
     }
