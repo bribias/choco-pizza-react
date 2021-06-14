@@ -1,1 +1,0 @@
-# choco-pizza-react
