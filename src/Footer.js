@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import smallLogo from './Assets/small-logo.png';
 
 export default class Footer extends Component {
     render() {
@@ -6,7 +7,7 @@ export default class Footer extends Component {
             <footer>
                 <section className="footer-logo-area">
                     <span className="footer-line"></span>
-                    <img className='img-inline-block' src={smallLogo} alt="small logo" />
+                    <img className='img-inline-block' src={smallLogo} alt="small-logo" />
                     <span className="footer-line"></span>
                 </section>
                 <div>
