@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import description from './Assets/description.png';
-import vanPic from './Assets/van-pic.png';
-import logo from './Assets/logo.png';
+// import vanPic from './Assets/van-pic.png';
+// import logo from './Assets/logo.png';
 import chocoPizza from './Assets/choco-pizza.png';
-import lab from './Assets/lab.png';
-import smallLogo from './Assets/small-logo.png';
+// import lab from './Assets/lab.png';
+// import smallLogo from './Assets/small-logo.png';
 import './body.css';
 
 export default class Body extends Component {
