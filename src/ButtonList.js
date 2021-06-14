@@ -16,9 +16,9 @@ const icons = [logo, twitIcon, fbIcon, gpIcon, instaIcon, flicIcon, printIcon, r
 
 export default class ButtonList extends Component {
     render() {
-        return (        
+        return (
             <div>
-                {this.props.icons.map((icon, i) => <img src={icons} alt="images" key={i} />)}
+                {this.props.icon.map((icon, i) => <img src={icons} alt="images" key={i} />)}
             </div>
         )
     }
