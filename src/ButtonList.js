@@ -12,7 +12,6 @@ import rssIcon from './Assets/rss-icon.png';
 // import smallLogo from './Assets/small-logo.png';
 import twitIcon from './Assets/twit-icon.png';
 // import vanPic from './Assets/van-pic.png';
-import ButtonList from './ButtonList';
 
 export default class ButtonList extends Component {
     render() {
