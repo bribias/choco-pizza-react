@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './Assets/logo.png';
+// import logo from './Assets/logo.png';
 // import chocoPizza from './Assets/choco-pizza.png';
 import fbIcon from './Assets/fb-icon.png';
 import flicIcon from './Assets/flic-icon.png';
@@ -15,10 +15,16 @@ import twitIcon from './Assets/twit-icon.png';
 
 export default class ButtonList extends Component {
     render() {
-        const icons = [logo, twitIcon, fbIcon, gpIcon, instaIcon, flicIcon, printIcon, rssIcon, mailIcon];
         return (
             <div>
-                <img src={icons} alt='icons' />
+                <img src={fbIcon} alt="icon" />
+                <img src={flicIcon} alt="icon" />
+                <img src={gpIcon} alt="icon" />
+                <img src={instaIcon} alt="icon" />
+                <img src={mailIcon} alt="icon" />
+                <img src={printIcon} alt="icon" />
+                <img src={rssIcon} alt="icon" />
+                <img src={twitIcon} alt="icon" />
             </div>
         )
     }
