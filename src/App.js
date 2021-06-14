@@ -1,63 +1,15 @@
 import './App.css';
 import React, { Component } from 'react';
-import logo from './Assets/logo.png';
-import chocoPizza from './Assets/choco-pizza.png';
-import fbIcon from './Assets/fb-icon.png';
-import flicIcon from './Assets/flic-icon.png';
-import gpIcon from './Assets/gp-icon.png';
-import instaIcon from './Assets/insta-icon.png';
-import lab from './Assets/lab.png';
-import mailIcon from './Assets/mail-icon.png';
-import pintIcon from './Assets/pint-icon.png';
-import printIcon from './Assets/print-icon.png';
-import rssIcon from './Assets/rss-icon.png';
-import smallLogo from './Assets/small-logo.png';
-import twitIcon from './Assets/twit-icon.png';
-import vanPic from './Assets/van-pic.png';
-import { stuff1, stuff2 } from './data.js'
+import Header from './Header';
+import ButtonList from './ButtonList';
 
-class ButtonList extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div id="header-icon" className='float-right'>
-        <img className="h-icon" alt="social media button" src={fbIcon} />
-        <img className="h-icon" alt="social media button" src={twitIcon} />
-        <img className="h-icon" alt="social media button" src={gpIcon} />
-        <img className="h-icon" alt="social media button" src={instaIcon} />
-        <img className="h-icon" alt="social media button" src={flicIcon} />
-        <img className="h-icon" alt="social media button" src={pintIcon} />
-        <img className="h-icon" alt="social media button" src={rssIcon} />
-        <img className="h-icon" alt="social media button" src={mailIcon} />
-      </div>
+      <Header />
+      
     )
   }
-}
-
-class Header extends Component {
-  render() {
-    return (
-      <header className='header-flex'>
-        <div>
-          <img src={logo} alt='a logo' />
-          <div id="header-text" className="inline-block">
-            <article id="title">Delicious</article>
-            <article id="subtitle">THE BEST FOOD BLOG ON THE WEB</article>
-          </div>
-        </div>
-        <ButtonList />
-      </header>
-    )
-  }
-}
-
-class ThiccSpan extends Component {
-  render() {
-    return (
-      <div className="thick">
-      </div>
-    )
-  }
-}
 
 class IngredientItem extends Component {
   render() {
@@ -161,4 +113,3 @@ function App() {
   );
 }
 
-export default App;
